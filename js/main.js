@@ -3,22 +3,22 @@
         {
             slot: 'hotspot-2',
             title: 'Red Light',
-            description: 'The glass panel on the outside of the earbud has a red light within it to clearly show when the earbud is on and connected to your device.'
+            description: 'The earbud features a glass panel on the outside, which includes a red light that visibly indicates when the earbud is powered on and linked to your device.'
         },
         {
             slot: 'hotspot-3',
             title: 'Microphone',
-            description: 'The microphone found on the bottom of the earbud allows great audio for phone calls and any other type of audio recording.'
+            description: 'The microphone located on the bottom of the earbud ensures excellent sound quality for phone calls and other audio recordings.'
         },
         {
             slot: 'hotspot-4',
             title: 'Speaker',
-            description: 'The Space Pods offer a top of the line audio experience with a better microphone than any other wireless earbud on the market.'
+            description: 'The Space Pods deliver an exceptional audio experience, featuring a superior microphone that outperforms any other wireless earbud available.'
         },
         {
             slot: 'hotspot-5',
             title: 'Ear Tip',
-            description: 'The Space Pods ear tip is made from a soft silicone making it the most comfortable wireless earbud available.'
+            description: 'The Space Pods ear tip is crafted from soft silicone, making it the most comfortable wireless earbud on the market.'
         }
     ];
   
@@ -35,7 +35,6 @@
                 const p = annotation.querySelector("p");
   
                 if (h2 && p) {
-                    // Log the data being applied
                     console.log("Setting data for", data.slot);
                     console.log("Title:", data.title);
                     console.log("Description:", data.description);
