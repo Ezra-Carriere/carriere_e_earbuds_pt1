@@ -2,16 +2,16 @@ model-viewer {
     width: auto;
     max-width: 1200px;
     height: 700px;
-    background-color: #efefef;
+    background-color: grey;
     margin: 0 auto;
   }
   
   .Hotspot {
     background: url(../images/hotspot.svg) center no-repeat;
     border: 0px;
-    width: 45px;
-    height: 38px;
-    transition: all 1s ease-in-out;
+    width: 50px;
+    height: 50px;
+    transition: all 0.3s ease-in-out;
   }
   
   .Hotspot:not([data-visible]) {
@@ -39,8 +39,9 @@ model-viewer {
   }
   
   .HotspotAnnotation p {
-    color: gray;
+    color: black;
     line-height: 20px;
+    font-size: 15px;
   }
   
   .HotspotAnnotation h2 {
